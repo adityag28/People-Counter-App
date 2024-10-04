@@ -1,0 +1,41 @@
+body {
+  background-image: url(bg.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.main {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  background-color: rgba(19, 29, 29, 0.555);
+  color: white;
+}
+.main h1 {
+  font-size: 30px;
+}
+.main p {
+  font-size: 20px;
+}
+
+#inc-btn {
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  background-color: rgb(243, 163, 58);
+  color: white;
+}
+#save-btn {
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  background-color: rgb(80, 121, 12);
+  color: white;
+}
